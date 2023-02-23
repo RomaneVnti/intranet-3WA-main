@@ -3,5 +3,5 @@ module.exports = function (req, res, next) {
     return next();
   }
 
-  return res.send(403, { error: 'Accès refusé. Seuls les administrateurs peuvent accèder à cette ressource'});
+  return res.send(403, { error: 'Accès refusé. Seul les administrateurs peuvent accèder à cette ressource'});
 }
